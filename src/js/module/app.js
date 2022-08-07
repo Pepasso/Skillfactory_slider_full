@@ -1,0 +1,9 @@
+// require("../module/burger.js");
+// require("../module/dynamic_adapt.js");
+// require("../module/menu.js");
+// require("../module/slider.js");
+// require("../module/img.js");
+// require("../module/swiperslide.js");
+// require("../module/emailvalidate.js");
+// require("../module/smooth.js");
+// require("../module/timer.js");

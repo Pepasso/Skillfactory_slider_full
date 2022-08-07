@@ -1,0 +1,24 @@
+@import "block/burger.scss";
+
+$fontFamily: "";
+$minWidth: 320px;
+$maxWidth: 1400;
+$maxWidthContainer: 1180;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+//бургер
+.icon-menu {
+  display: none;
+  @media (max-width: $md2+px) {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 5;
+    @include anim(0.3s, 0s);
+  }
+}
